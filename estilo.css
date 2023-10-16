@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+
+header {
+    background: rgb(2, 1, 20);
+    padding: 10px 50px;
+}
+.imagen-container {
+    display: flex;
+}
+.imagen-container img {
+    width: 100%;
+}
+#logo {
+    width: 90px;
+}
+#logo img {
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero #laptop {
+    display: inline-block;
+    width: 100%;    
+}
+#hero .informacion-contenedor {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: white;
+    padding: 0  50px;
+}
+
+#hero .informacion-contenedor{
+    width: 200px;
+}
+
+#hero .informacion-contenedor #foto{
+    width: 200px;
+}
+
+#hero .informacion-contenedor #foto img {
+    border-radius: 100%;   
+}
+
+#hero .informacion-contenedor .informacion{
+    margin-left:  20px;
+    font-weight: bold;
+    width:  calc(100% - 200px);
+
+}
+#hero .informacion-contenedor .informacion span {
+    display:  inline-block;
+    color: grey;
+    margin-bottom:  70px;
+}
+
+main{
+    padding: 100px;
+}
+
+main .social-contacts {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+main .social-contacts li {
+    margin-left: 8px;
+}
+main .social-contacts .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    width:  100%;
+    height: 100%;
+}
+
+main .social-contacts #link {
+    background-color: #0077b0;
+}
+
+main .social-contacts #link {
+    background-color: red;
+}
+
+main .social-contacts #link {
+    background-color: #121212;
+}
+
+main .social-contacts #link {
+    background-color: #0077b0;
+}
+main .social-contacts #git {
+    background-color: #23272d;
+}
