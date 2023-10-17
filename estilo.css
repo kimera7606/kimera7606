@@ -1,11 +1,14 @@
-* {
+/** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
+*/
 body {
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(29, 26, 80);
+    color: #fff;
 }
 
 
@@ -13,10 +16,10 @@ header {
     background: rgb(2, 1, 20);
     padding: 10px 50px;
 }
-.imagen-container {
+.image-container {
     display: flex;
 }
-.imagen-container img {
+.image-container img{
     width: 100%;
 }
 #logo {
@@ -31,7 +34,7 @@ header {
     position: relative;
 }
 
-#hero #laptop {
+#hero #computadora {
     display: inline-block;
     width: 100%;    
 }
@@ -47,11 +50,12 @@ header {
 }
 
 #hero .informacion-contenedor{
-    width: 200px;
+    width: 600px;
+
 }
 
 #hero .informacion-contenedor #foto{
-    width: 200px;
+    width: 600px;
 }
 
 #hero .informacion-contenedor #foto img {
@@ -70,11 +74,12 @@ header {
     margin-bottom:  70px;
 }
 
-main{
-    padding: 100px;
+main img{
+    padding: 10%;
+    width: 50px;
 }
 
-main .social-contacts {
+main .social-icons {
     display: flex;
     justify-content: center;
     margin-top: 40px;
@@ -83,31 +88,27 @@ main .social-contacts {
 main .social-contacts li {
     margin-left: 8px;
 }
-main .social-contacts .social{
+main .social-contacts .social-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
     border-radius: 5px;
-    width:  100%;
-    height: 100%;
+    width:  10%;
+    height: 10%;
 }
 
-main .social-contacts #link {
+main .social-icon #link {
     background-color: #0077b0;
 }
 
-main .social-contacts #link {
+main .social-icon #insta {
     background-color: red;
 }
 
-main .social-contacts #link {
-    background-color: #121212;
-}
-
-main .social-contacts #link {
+main .social-icon #facebook {
     background-color: #0077b0;
 }
-main .social-contacts #git {
+main .social-icon #git {
     background-color: #23272d;
 }
