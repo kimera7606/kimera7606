@@ -32,6 +32,8 @@ header {
 
 #hero {
     position: relative;
+    width: 700px;
+    height: 500px;
 }
 
 #hero #computadora {
